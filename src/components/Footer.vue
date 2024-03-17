@@ -43,8 +43,8 @@ footer {
   .copyright {
     margin-bottom: 4px;
     .description {
-      &::after {
-        content: "@ Copyright By";
+      &::before {
+        content: "@ Copyright By 2024 ";
         margin: 0 6px;
       }
     }
