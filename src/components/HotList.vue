@@ -297,7 +297,7 @@ onMounted(() => {
   }
 
   :deep(.news-list) {
-    height: 300px;
+    height: 100%;
 
     .n-scrollbar-rail {
       right: 0;
@@ -375,6 +375,9 @@ onMounted(() => {
         display: inline-block;
         width: 100%;
         transition: all 0.3s;
+        height: 30px;
+        line-height: 30px;
+        overflow: hidden;
 
         @media (min-width: 768px) {
           &:hover {
