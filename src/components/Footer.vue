@@ -2,20 +2,20 @@
   <footer>
     <div class="copyright">
       <n-text class="description" v-html="packageJson.description" />
-      <n-text
+      <!--<n-text
         class="author"
         :depth="3"
         v-html="packageJson.author"
         @click="jumpLink(packageJson.github)"
-      />
+      />-->
     </div>
-    <n-text
+    <!--<n-text
       v-if="icp"
       :depth="3"
       class="icp"
       v-html="icp"
       @click="jumpLink('https://beian.miit.gov.cn/')"
-    />
+    />-->
   </footer>
 </template>
 
